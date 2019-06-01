@@ -12,6 +12,8 @@
 		2950835F22A2943700B7F084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2950835D22A2943700B7F084 /* Main.storyboard */; };
 		2950836122A2943700B7F084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2950836022A2943700B7F084 /* Assets.xcassets */; };
 		2950836422A2943700B7F084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2950836222A2943700B7F084 /* LaunchScreen.storyboard */; };
+		2950836C22A2970A00B7F084 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950836B22A2970A00B7F084 /* Coordinator.swift */; };
+		2950836E22A2982800B7F084 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950836D22A2982800B7F084 /* Storyboarded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2950836022A2943700B7F084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2950836322A2943700B7F084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2950836522A2943700B7F084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2950836B22A2970A00B7F084 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2950836D22A2982800B7F084 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2950836022A2943700B7F084 /* Assets.xcassets */,
 				2950836222A2943700B7F084 /* LaunchScreen.storyboard */,
 				2950836522A2943700B7F084 /* Info.plist */,
+				2950836B22A2970A00B7F084 /* Coordinator.swift */,
+				2950836D22A2982800B7F084 /* Storyboarded.swift */,
 			);
 			path = "Co ord in ator";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				2950835C22A2943700B7F084 /* ViewController.swift in Sources */,
 				2950835A22A2943700B7F084 /* AppDelegate.swift in Sources */,
+				2950836C22A2970A00B7F084 /* Coordinator.swift in Sources */,
+				2950836E22A2982800B7F084 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

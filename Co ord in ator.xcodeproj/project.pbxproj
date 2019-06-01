@@ -60,15 +60,15 @@
 		2950835822A2943700B7F084 /* Co ord in ator */ = {
 			isa = PBXGroup;
 			children = (
+				2950836B22A2970A00B7F084 /* Coordinator.swift */,
+				2950836D22A2982800B7F084 /* Storyboarded.swift */,
+				2950836F22A299CC00B7F084 /* MainCoordinator.swift */,
 				2950835922A2943700B7F084 /* AppDelegate.swift */,
 				2950835B22A2943700B7F084 /* ViewController.swift */,
 				2950835D22A2943700B7F084 /* Main.storyboard */,
-				2950836F22A299CC00B7F084 /* MainCoordinator.swift */,
 				2950836022A2943700B7F084 /* Assets.xcassets */,
 				2950836222A2943700B7F084 /* LaunchScreen.storyboard */,
 				2950836522A2943700B7F084 /* Info.plist */,
-				2950836B22A2970A00B7F084 /* Coordinator.swift */,
-				2950836D22A2982800B7F084 /* Storyboarded.swift */,
 			);
 			path = "Co ord in ator";
 			sourceTree = "<group>";

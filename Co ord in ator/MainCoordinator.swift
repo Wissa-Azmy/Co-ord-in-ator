@@ -19,8 +19,23 @@ class MainCoordinator: Coordinator {
         childCoordinators = [Coordinator]()
     }
     
+    // Navigate to the home controller when the app starts
     func start() {
-        let vc = ViewController.instantiate()
+        let vc = HomeViewController.instantiate()
+        // Set our initial view controller coordinator property to self
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
+    }
+    
+    func buy() {
+        let vc = BuyViewController.instantiate()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func createAccount() {
+        let vc = CreateAccountViewController.instantiate()
+        vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
 }

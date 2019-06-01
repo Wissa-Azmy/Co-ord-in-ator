@@ -14,6 +14,7 @@
 		2950836422A2943700B7F084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2950836222A2943700B7F084 /* LaunchScreen.storyboard */; };
 		2950836C22A2970A00B7F084 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950836B22A2970A00B7F084 /* Coordinator.swift */; };
 		2950836E22A2982800B7F084 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950836D22A2982800B7F084 /* Storyboarded.swift */; };
+		2950837022A299CC00B7F084 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950836F22A299CC00B7F084 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2950836522A2943700B7F084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2950836B22A2970A00B7F084 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		2950836D22A2982800B7F084 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		2950836F22A299CC00B7F084 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2950835922A2943700B7F084 /* AppDelegate.swift */,
 				2950835B22A2943700B7F084 /* ViewController.swift */,
 				2950835D22A2943700B7F084 /* Main.storyboard */,
+				2950836F22A299CC00B7F084 /* MainCoordinator.swift */,
 				2950836022A2943700B7F084 /* Assets.xcassets */,
 				2950836222A2943700B7F084 /* LaunchScreen.storyboard */,
 				2950836522A2943700B7F084 /* Info.plist */,
@@ -144,6 +147,7 @@
 				2950835C22A2943700B7F084 /* ViewController.swift in Sources */,
 				2950835A22A2943700B7F084 /* AppDelegate.swift in Sources */,
 				2950836C22A2970A00B7F084 /* Coordinator.swift in Sources */,
+				2950837022A299CC00B7F084 /* MainCoordinator.swift in Sources */,
 				2950836E22A2982800B7F084 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
